@@ -1,7 +1,7 @@
 <template>
   <section>
     <header>
-      <h1>Vehical diary</h1>
+      <h1>Friend Contact List</h1>
     </header>
 
     <b-container class="bv-example-row">
