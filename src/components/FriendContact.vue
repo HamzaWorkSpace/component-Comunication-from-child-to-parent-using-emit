@@ -25,6 +25,11 @@ export default {
           "friendPhone",
           "friendId"
         ],
+  
+  emits:[
+
+    "delete-event"
+  ],
           
   data() {
     return {

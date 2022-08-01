@@ -98,6 +98,7 @@ export default {
 
       deleteItemFromList(id){
         const delFriend = this.friendsList.findIndex( friendsList => friendsList.id === id );
+        //.findIndex is a javascript function that returns the index of the array if a specific condition is met.
          this.friendsList.splice(delFriend,1);
       }
   }
